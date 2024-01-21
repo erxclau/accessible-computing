@@ -44,12 +44,14 @@
 
       p,
       ul,
+      ol,
       h1,
       h2 {
         margin: 0;
       }
 
-      ul {
+      ul,
+      ol {
         display: grid;
         gap: 0.25rem;
       }
@@ -61,7 +63,7 @@
         <hgroup>
           <h1>Labeling interactive web elements using generative AI</h1>
           <p>EECS 495 — Accessible Computing</p>
-          <p><b>Eric Lau</b> — Senior, Computer Science (LSA), he/him, New York City</p>
+          <p><b>Eric Lau</b> — Senior, Computer Science (LSA), he/him City</p>
         </hgroup>
       </div>
       <div>
@@ -91,13 +93,28 @@
               >
             </li>
           </ul>
-          <p>There are also more complex interactive elements such as data visualizations.</p>
+          <p>
+            There are also more complex interactive elements such as data
+            visualizations.
+          </p>
         </section>
       </div>
       <div>
         <section>
           <h2>Generative AI for accessibility</h2>
-          <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+          <ol>
+            <li>Screen reader user installs a Chrome extension</li>
+            <li>
+              User encounters an inaccessible interactive element on a website
+            </li>
+            <li>User presses a keyboard shortcut</li>
+            <li>
+              Extension uses
+              <a href="https://chat.openai.com/" target="_blank">ChatGPT</a> (or
+              other LLM) API to generate accessible element
+            </li>
+            <li>Screen reader reads aloud accessible context</li>
+          </ol>
         </section>
       </div>
       <div>
