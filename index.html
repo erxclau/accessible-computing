@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EECS 495 — Accessible Computing</title>
+    <style>
+      html,
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 35px;
+
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        max-width: 60ch;
+        width: 100%;
+        margin: 0 auto;
+
+        display: grid;
+        gap: 1rem;
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+      }
+
+      main div {
+        min-height: 100vh;
+      }
+
+      hgroup,
+      section {
+        display: grid;
+        gap: 0.5rem;
+      }
+
+      h1,
+      h2 {
+        text-wrap: balance;
+      }
+
+      p,
+      ul,
+      h1,
+      h2 {
+        margin: 0;
+      }
+
+      ul {
+        display: grid;
+        gap: 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <hgroup>
+          <h1>Labeling interactive web elements using generative AI</h1>
+          <p>EECS 495 — Accessible Computing</p>
+          <p><b>Eric Lau</b> — Senior, Computer Science (LSA), he/him, New York City</p>
+        </hgroup>
+      </div>
+      <div>
+        <section>
+          <h2>Screen reader examples</h2>
+          <ul>
+            <li>
+              Accessible button:
+              <a href="https://www.nytimes.com/" target="_blank"
+                >The New York Times</a
+              >
+            </li>
+            <li>
+              Inaccessible button:
+              <a href="https://eecs485.org/" target="_blank">EECS 485</a>
+            </li>
+            <li>
+              Accessible link:
+              <a href="https://www.osu.edu/" target="_blank"
+                >The Ohio State University</a
+              >
+            </li>
+            <li>
+              Inaccessible link:
+              <a href="https://www.samsung.com/us/smartthings/" target="_blank"
+                >Samsung SmartThings</a
+              >
+            </li>
+          </ul>
+          <p>There are also more complex interactive elements such as data visualizations.</p>
+        </section>
+      </div>
+      <div>
+        <section>
+          <h2>Generative AI for accessibility</h2>
+          <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+        </section>
+      </div>
+      <div>
+        <section>
+          <h2>Project overview</h2>
+          <ul>
+            <li>Platform: Web / Google Chrome (Chromium) browser extension</li>
+            <li>OS: macOS, Windows, Linux</li>
+            <li>Programming language: JavaScript/TypeScript, Python</li>
+          </ul>
+        </section>
+      </div>
+      <div>
+        <section>
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML/DOM manipulation</li>
+            <li>Chrome extension development</li>
+            <li>LLM prompting</li>
+            <li>HTTP API</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
